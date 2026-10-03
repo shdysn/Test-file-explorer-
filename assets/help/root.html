@@ -1,0 +1,97 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>The Basics</title>
+  <link rel="StyleSheet" type="text/css" href="default.css"/>
+</head>
+<body>
+
+<h1>WARNING</h1>
+
+<p>Root access is intended for developers and knowledgeable enthusiasts ONLY. Improper use of any root access
+  application can cause your phone/tablet to malfunction or become entirely non-operational. You assume all risk when
+  using this or any root-access application to modify your device.</p>
+
+<p><b>The root module requires that you have root/superuser access on your phone/tablet. The root module WILL NOT root
+  your phone/tablet. If you do not have root access, the root module is useless.</b></p>
+
+<h1>Enabling Root Features</h1>
+
+<p>To do work as the root user, you first need to enable root access in FX. Visit the "Upgrade" item on the Home Screen
+  or from the Settings screen and scroll to the "Developer/Root" tab. Tap the "Enable" button.</p>
+
+<h1>Using Root Access</h1>
+
+<p><i>Only use root when required:</i> Even when the root access module is installed, normal everyday file operations
+  should be done without root access. For safety and security, root access should only be used when it is required,
+  i.e., when making modifications to the Android operating system or installed applications. Root access will only be
+  enabled when you open the "System (Root)" catalog from the FX home screen and do work within it.</p>
+
+<p><i>Granting superuser access:</i> The first time you open the "System (Root)" catalog, your installed superuser
+  application will ask you if you want to allow FX to use root permissions. The root module cannot work unless you grant
+  it root access.</p>
+
+<p><i>Warning dialogs:</i> FX will additionally present a "Root Access Authorization" dialog whenever you attempt to
+  perform any work as root. Press the "OK" button to allow work to be done as root or "Cancel" if you did not intend to
+  do so. This dialog will only appear if you have not done work as root in the past five (5) minutes. You can configure
+  this time interval, disable the dialog entirely, or require a PIN/password to do such work using FX's Settings. See
+  "Configuring Authentication" for more information.</p>
+
+<h2>Remounting Filesystems Read-Write and Read-Only</h2>
+
+<p>The critical filesystems of Android are mounted read-only under normal conditions. The critical filesystems are the
+  root filesystem ("/") and the system filesystem ("/system"). In order to make modifications to these filesystems, you
+  must first remount them as writable, and you should then immediately remount them as read-only when you are
+  finished.</p>
+
+<p>FX will display a lock icon in the upper-right corner of the screen when browsing a filesystem that is mounted
+  read-only (when you are using root access). Tap the lock to remount the filesystem as read-write. Tap it again to
+  remount the filesystem as read-only. A warning message will appear on the FX homescreen whenever critical filesystems
+  have been remounted with write access.</p>
+
+<h2>Working with Files as Root</h2>
+
+<p>You can move, copy, delete, rename, or use any of FX's other file operations on files and folders as the root
+  user.</p>
+
+<p><i>Opening files as root:</i> Files that require root to access can only be opened with FX's own viewers and editors.
+  If you need to open a file as the root user with a third-party application, you'll want to make a copy of it and place
+  the copy in a user-accessible directory. Then open the file with the third-party application, save changes, and use FX
+  to copy it back to its original location. This extra step is necessary because other applications generally won't be
+  able read or write files as root.</p>
+
+<h2>Editing Text Files as Root</h2>
+
+<p>You can use the FX Text Editor to edit files as the root user. Just long-press on a file and tap "Open With", then
+  select "Text Editor" in the Open With dialog. It is strongly recommended that you make a backup of any critical files
+  you edit. It is also recommended that you edit copies of configuration files and then replace the original when your
+  have completed your changes, rather than editing a "live" configuration file.</p>
+
+<h2>Changing File Permissions and Ownership</h2>
+
+<p>To change UNIX permissions and ownership of files, long-press on a file and select "Security". A dialog will appear
+  showing a permissions grid containing Read, Write, and Execute permissions for the file's owner, group, and all users.
+  Tapping a cell in the grid will toggle the state of its represented permission. To change ownership of a file, tap the
+  "Owner" or "Group" buttons on the left side of the grid.</p>
+
+<h1>Configuring Authentication</h1>
+
+<p>FX provides the ability to restrict access to its root features or simply provide warnings when they are used. The
+  default behavior is to warn the user when they begin using root features (and have not done so for a period of time).
+  The behavior can be changed using FX's Settings panel. To access the root-access settings, tap the main menu, select
+  "Settings", and then select "Root".</p>
+
+<p>Authentication can be disabled, configured with a numeric PIN, a text password, or a simple warning dialog (the
+  default).</p>
+
+<p>Please note that restricting access with a PIN or password will only prevent root access via FX; you'll want to
+  install a secure superuser application if you need to entirely prevent root access by any application without password
+  authentication. The primary intent of FX's root access authentication is to prevent non-malicious users of a device
+  from inadvertently performing operations as root.</p>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+h1 {
+    color: #607d8b;
+    font-weight: normal;
+    font-size: 17pt;
+    font-variant: small-caps;
+}
+
+h2 {
+    color: #607d8b;
+    font-size: 15pt;
+    font-weight: normal;
+    font-variant: small-caps;
+}
+
+h3 {
+    color: #607d8b;
+    font-size: 13pt;
+    font-weight: normal;
+    font-variant: small-caps;
+}
+
+span.h3sub {
+    font-size: 10pt;
+    font-variant: normal;
+}
+
+td.header {
+    background-color: #546e7a;
+    color: white;
+    font-size: 13pt;
+    font-variant: small-caps;
+}
+
+td.keyCode {
+    text-align: center;
+    background-color: #37474f;
+    color: white;
+    font-variant: small-caps;
+}
+
+td.value {
+    background-color: #cfd8dc;
+}
+
+code {
+    color :#227722;
+}
+
+a:link {
+    color: #455a64;
+}
+
+a:visited {
+    color: #263238;
+}
+
+body {
+    background-color: #efefef;
+}

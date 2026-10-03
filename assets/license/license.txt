@@ -1,0 +1,69 @@
+NextApp, Inc.
+
+^FX File Explorer License Agreement
+
+READ CAREFULLY BEFORE USING THE SOFTWARE AND/OR PURCHASING ADD-ON MODULES.
+
+By using the NextApp, Inc. FX File Explorer Software (hereinafter "the Software" or "Software"), you are accepting the following License Agreement:
+
+LICENSE AGREEMENT.
+
+This is a legal agreement between you (either an individual or an entity) and NextApp, Inc. By using the Software you are agreeing to be bound by the terms of this agreement. This agreement is being made available to you for your review prior to your use of the Software. In order to use this Software you must review this agreement and select the "Accept" button.  Activating the "Accept" button shall constitute a manifestation of your acceptance of the terms of this agreement. If you do not agree to the terms of this agreement, you will not be permitted to use this Software.
+
+^1. LICENSE GRANTED.
+
+The Software is licensed, not sold, to you, to be used only under the express terms of this Agreement, and NextApp reserves all rights which are not expressly granted to you by this Agreement. 
+
+If you upgrade the Software to a higher-numbered version, or to a comparable NextApp Software product, this license is terminated and your rights shall be limited to the license associated with that product or version.
+
+^2. RESTRICTIONS ON USE AND TRANSFER.
+
+You may not sublicense, rent, lease, assign or otherwise transfer the Software or License Key or any rights thereto, either in whole or in part, to anyone else. Use of the Software with a License Key obtained from a source other than NextApp, Inc. is expressly and strictly forbidden.  You agree to ensure that anyone who uses any portion of the Software provided to you complies with the terms and conditions of this Agreement.
+
+You acknowledge that this Software is not designed or intended for use in the design, maintenance, or operation of any nuclear facility. Further, you acknowledge that this Software is not designed or intended for use in any environment where its failure or malfunction could create risk of bodily injury or death to any person. NextApp, Inc. disclaims any warranty, whether expressed or implied, for such uses.
+
+No right, title, license or interest to any trademark, service mark, logo or trade name of NextApp, Inc. is granted under this Agreement.
+
+^3. INTELLECTUAL PROPERTY RIGHTS.
+
+You acknowledge that the Software contains copyrighted material, trade secrets, trademarks and other proprietary material of NextApp, Inc. ("Confidential Information"), and is protected under United States and international copyright law and other applicable laws. You may not engage in any unauthorized use or disclosure of any Confidential Information. You agree that the source code of the Software is confidential and is the sole property of NextApp, Inc. As such, you may not copy the Software, decompile the Software, disassemble, reverse engineer or create a derivative work based upon the Software, nor may you authorize anyone else to do so. You must reproduce and maintain all copyright notices that are contained in the Software on any copy thereof that you make or use.
+
+^4. DISCLAIMER OF WARRANTY.
+
+ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT ARE DISCLAIMED, EXCEPT TO THE EXTENT THAT THESE DISCLAIMERS ARE HELD TO BE LEGALLY INVALID.
+
+^5. LIMITATION OF LIABILITY.
+
+TO THE EXTENT NOT PROHIBITED BY LAW, IN NO EVENT WILL NEXTAPP, INC. BE LIABLE FOR ANY LOST REVENUE, PROFIT OR DATA, OR FOR SPECIAL, INDIRECT, CONSEQUENTIAL, INCIDENTAL OR PUNITIVE DAMAGES, HOWEVER CAUSED AND REGARDLESS OF THEORY OF LIABILITY, ARISING OUT OF OR RELATED TO THE USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF NEXTAPP HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. In no event will NextApp, Inc.'s liability to you, whether in contract, tort (including negligence), or otherwise, exceed the amount paid by you for Software under this Agreement. The foregoing limitations will apply even if the above stated warranty fails of its essential purpose.
+
+^6. TERMINATION.
+
+This Agreement is effective until terminated. You may terminate this Agreement at any time by destroying all copies of, and terminating use of, the Software. This Agreement will terminate immediately and without notice from NextApp, Inc. if you fail to comply with any provision of this Agreement. Upon such termination, you must destroy all copies of, and terminate use of FX File Explorer. Either party may terminate this Agreement immediately should the Software become, or in either party's opinion be likely to become, the subject of a claim of infringement of any intellectual property right.
+
+^7. GOVERNING LAW.
+
+Any action related to this Agreement will be governed by California law and/or controlling U.S. federal law. You agree that in any dispute resulting from your purchase or use of the Software or arising in any capacity under this Agreement, venue will be proper in Orange County, California. No choice of law rules of any jurisdiction shall apply.
+
+^8. INDEMNIFICATION.
+
+You agree to defend, indemnify, and hold NextApp, Inc. and all of its employees, agents, representatives, directors, officers, partners, shareholders, attorneys, predecessors, successors, and assigns harmless from and against any and all claims, proceedings, damages, injuries, liabilities, losses, costs, and expenses (including reasonable attorneys' fees and litigation expenses), relating to or arising from your use of the Software, or any breach of this Agreement, except to the extent such claim relates to or arises from a violation by NextApp, Inc. of any third party copyright, trademark, trade secret or other intellectual property right.
+
+^9. EXPORT REGULATIONS.
+
+All Software and technical data delivered under this Agreement are subject to US export control laws and may be subject to export or import regulations in other countries. You agree to comply strictly with all such laws and regulations and acknowledge that you have the responsibility to obtain such licenses to export, re-export, or import as may be required after delivery to you.
+
+^10. U.S. GOVERNMENT RESTRICTED RIGHTS.
+
+If Software is being acquired by or on behalf of the U.S. Government or by a U.S. Government prime contractor or subcontractor (at any tier), then the Government's rights in Software and accompanying documentation will be only as set forth in this Agreement; this is in accordance with 48 CFR 227.7201 through 227.7202-4 (for Department of Defense (DOD) acquisitions) and with 48 CFR 2.101 and 12.212 (for non-DOD acquisitions).
+
+^11. WAIVER.
+
+The failure of NextApp, Inc. to assert its rights under this Agreement following a breach thereof shall not be construed as a waiver of those rights. No waiver of NextApp, Inc.'s rights under this agreement shall be valid unless memorialized in a writing, signed by an authorized NextApp, Inc., employee.
+
+^12. SEVERABILITY.
+
+If any provision of this Agreement is held to be unenforceable, this Agreement will remain in effect with said provision omitted, unless such omission would frustrate the intent of the parties, in which case this Agreement will immediately terminate.
+
+^13. INTEGRATION.
+
+This Agreement is the entire agreement between you and NextApp, Inc. relating to NextApp, Inc. FX File Explorer Software. This Agreement supersedes all prior or contemporaneous oral or written communications, proposals, representations and warranties. No modification of this Agreement will be binding, unless in writing and signed by an authorized representative of the party to be bound.

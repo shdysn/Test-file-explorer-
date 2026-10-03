@@ -1,0 +1,66 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>App Management</title>
+  <link rel="StyleSheet" type="text/css" href="default.css"/>
+</head>
+<body>
+<p>The FX app manager allows you to manage installed applications on your phone or tablet. To access this feature, tap
+  the "Apps" catalog on the home screen.</p>
+
+<p>From the home screen of the "Apps" catalog, you can view user-installed apps, system apps, or all apps at the same
+  time. You can also view apps categorized by the permissions that they require.</p>
+
+<h1>Managing Apps</h1>
+
+<p>When you open an App catalog, FX will display a listing of installed applications.</p>
+
+<p>Tapping an individual app will take you to an "App Details" screen, showing information about the app including its
+  package name, version, installation/update dates, permissions, and required features. From this "App Details" screen
+  you can uninstall the app, visit the Android OS control panel for the app, or view its listing on the Play Store. The
+  more technically inclined or curious can also browse the contents of its APK (Application Package) file or view its
+  raw manifest data.</p>
+
+<h2>Root-Specific Features</h2>
+
+<p>If you have root access on your device, and you have the FX Root Add-On installed, the app manager provides
+  additional features:</p>
+
+<ul>
+  <li><b>Usage View</b>: When viewing a list of apps, tap the "View" menu and select "Usage View". FX will calculate the
+    entire footprint of an application, i.e., how much storage space it is using on the <code>/data</code> partition. If
+    you are looking to free space on your data partition, turn on "Usage View" and then sort applications by size.
+  </li>
+  <li><b>Enable/disable Apps</b>: From within the "App Details" screen, you can enable or disable any application. (You
+    can also do this via the Android Control Panel for most system applications, without root access). It can be
+    dangerous to arbitrarily disable system applications: many are critical in order for the Android OS to boot to the
+    point where it can be operated by the user.
+  </li>
+  <li><b>Browse Data</b>: From the "App Details" screen, a "browse data" option is enabled in the menu to take you
+    directly to the app's folder in the <code>/data/data</code> directory.
+</ul>
+
+
+<h1>Viewing Apps by Permission</h1>
+
+<p>FX provides the ability to view apps by permission. This provides a practical way to audit which applications can use
+  which capabilities of your device.</p>
+
+<p>When you open the "Apps by Permission" catalog, you will be presented with a list of all permissions used by
+  applications on the device, with the permissions categorized into various groups, e.g. "Network Communication", "Your
+  Location", and "Your Messages". You can then either tap on individual permissions to see which apps make use of them,
+  or tap the group heading to see all apps in the group.</p>
+
+<p>The "Shield" icons next to each permission indicate the "severity" of the permission. A green bar indicates a
+  relatively safe permission, while a red bar indicates a more dangerous one. These severity levels were defined by
+  Android, and the green "safer" indicator does not mean that a permission can't be used maliciously.</p>
+
+<p>Apps-by-Permission displays only user apps by default. You can use the "View" menu to change which types of apps are
+  shown.</p>
+
+</body>
+
+</html>

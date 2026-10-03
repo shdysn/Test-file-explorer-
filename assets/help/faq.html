@@ -1,0 +1,77 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Frequently Asked Questions</title>
+  <link rel="StyleSheet" type="text/css" href="default.css"/>
+</head>
+<body>
+
+<p>The FAQ is always under development, please feel free to suggest items to add to it based on your experience with the
+  product. Send suggestions to android@nextapp.com.</p>
+
+<p>
+  <b>How do I select files/items?</b> Files or other items may be selected by long pressing on them, pressing the [+]
+  button at the top of the screen, or by dragging your finger horizontally across the item.
+</p>
+
+<p>
+  <b>I'm having trouble creating a Windows (SMB) connection to a computer or network appliance (e.g. router).</b> FX
+  defaults to using the SMB2 protocol for security reasons, and some older devices may not support it. If you have
+  trouble connecting to a device, try editing the connection, selecting the "Advanced" tab and forcing use of the legacy
+  SMB1 protocol.</p>
+
+<p>
+  <b>Why is using SMB1 "Not Recommended"?</b> SMB1 has been deprecated by Microsoft for security reasons. Newer versions
+  of Windows are rapidly discontinuing support for it. FX thus uses the SMB2 protocol by default for Windows network
+  connections. Some older devices, most notably internet appliances such as wireless routers support SMB but are limited
+  to SMB1, so you may be required to use it if you wish to connect to such a device.</p>
+
+<p>
+  <b>Why does FX require each of its various Android permissions?</b> FX requires the following permissions:
+</p>
+<ul>
+  <li><b>Access approximate location (network based)</b>: Required by Android 9.0 and later for FX Connect to discover
+    nearby devices. FX does not ever actually use this permission to query your location. Google decided to add this
+    requirement because applications using Wi-Fi Direct could theoretically infer a device's location using the hardware
+    network address of nearby Wi-Fi devices (as is used in "network based" location services). You will only be asked
+    for location access permission if you are using Android 9.0 or later and start FX Connect.
+  </li>
+  <li><b>Prevent Phone from Sleeping</b>: Required to allow file transfers to occur in the background while the device
+    is in a partial sleep state (e.g., when the screen is powered down). FX will only make use of this permission while
+    a requested file transfer is in progress. Once file transfers have completed or been canceled, the device will be
+    allowed to fully sleep.
+  </li>
+  <li><b>Read contents of your SD Card</b>, <b>Modify/Delete SD Card Contents</b>, and/or <b>Test Access to Protected
+    Storage</b>: These permissions are required for basic file management functions.
+  </li>
+  <li><b>Full Internet Access</b>: This permission is required to transfer files over any network (LAN or Internet).
+  </li>
+  <li><b>View Network State</b> and <b>View Wi-Fi State</b>: Required for networking features. FX uses this permission
+    to display the state of the phone/device's network connectivity.
+  </li>
+  <li><b>Create Bluetooth Connections</b> and <b>Bluetooth Administration</b>: These permissions are required for FX
+    Bluetooth features.
+  </li>
+  <li><b>Set Wallpaper</b>: FX allows you set your home screen wallpaper from the FX Image Viewer.</li>
+  <li><b>Modify System Settings</b>: This permission is required to enable you to set your default ringtone,
+    notification, and alarm sounds from within FX.
+  </li>
+  <li><b>Install Shortcuts</b>: This permission is required to create home-screen shortcuts to your files and folders.
+  </li>
+  <li><b>Connect and Disconnect from Wi-Fi</b>: FX provides the ability to turn Wi-Fi on and off from within its network
+    screens. This permission is required to do so.
+  </li>
+  <li><b>Allow Wi-Fi Multicast Reception</b>: The "FX Connect" feature uses Wi-Fi multicast to establish a connection
+    between two devices for file transfers.
+  </li>
+  <li><b>In-app purchases / Google Play billing service</b>: This permission is used for purchasing FX Plus via in-app
+    purchase. FX does not require Google Play Services and will run on devices without it.
+  </li>
+</ul>
+
+</body>
+
+</html>
